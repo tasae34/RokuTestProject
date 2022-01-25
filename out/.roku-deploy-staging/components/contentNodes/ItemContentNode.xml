@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="ItemContentNode" extends="ContentNode">
+	<!-- importing main handler -->
+    <script type="text/brightscript" uri="pkg:/components/contentNodes/ItemContentNode.brs" />
+
+    <interface>
+        <field id="title" type="string" />
+        <field id="parentalRating" type="string" />
+        <field id="year" type="string" />
+        <field id="length" type="string" />
+        <field id="posterUrl" type="string" />
+        <field id="description" type="string" />
+        <field id="director" type="string" />
+        <field id="bacgroundImageUrl" type="string" />
+        <field id="url" type="string" />
+        <field id="cast" type="roArray" />
+        <field id="genres" type="roArray" />        
+        <field id="streamFormat" type="string" />
+    </interface>
+
+    <children>
+
+    </children>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="VideoComponent" extends="Group" initialFocus="controlButtonGroup">
+    <script type="text/brightscript" uri="pkg:/components/VideoComponent.brs" />
+    <interface>
+        
+    </interface>
+
+    <children>
+        <Label id="label1" translation="[200,200]" text="Video Player"/>
+        <Video id="myVideo" width="600" height="400" translation="[200,300]"/>
+        <ButtonGroup id="controlButtonGroup" layoutDirection="vert">
+            <Button id="buttonPlay" text="Play"/>
+            <Button id="buttonFullScreen" text="Go to Full Screen"/>
+        </ButtonGroup>
+    </children>
+
+</component>
